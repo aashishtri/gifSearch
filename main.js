@@ -59,7 +59,7 @@ function pushToDOM(input) {
   	console.log(response.data[i].images.fixed_height.url);
   	var img = document.createElement('img');
   	img.src= response.data[i].images.fixed_height.url;
-  	img.class="container-image"
+  	img.className="container-image";
   	container.appendChild(img);
   	// container.innerHTML = response.data[i]["url"];
   }
